@@ -1,0 +1,12 @@
+.BodyContainer{
+ min-height: 100%;
+ min-width: calc(100% - 3.5rem);
+ position: relative;
+}
+
+.bodyInnerdiv{
+ display: grid;
+ grid-auto-flow: column;
+     grid-template-columns: repeat(auto-fill,minmax(104px, 1fr));
+     grid-template-rows:repeat(auto-fill,minmax(104px, 1fr)) ;
+}

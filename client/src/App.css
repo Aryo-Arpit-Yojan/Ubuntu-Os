@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+     font-family: 'Ubuntu';
+}
+.App{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    box-sizing: border-box;
+     font-family: 'Ubuntu';
+}

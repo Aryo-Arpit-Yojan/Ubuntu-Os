@@ -1,0 +1,137 @@
+.menu-main-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0px;
+  right: 0px;
+  background-color:#222222;
+  z-index: 500101;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1rem;
+  overflow: auto;
+}
+
+.menu-app-container {
+  width: 75%;
+  display: flex;
+  margin-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+}
+.app-container-card:hover {
+  background-color: #2b2b2b;
+}
+.app-container-card {
+  min-height: 6rem;
+  min-width: 6rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  margin-left: 1.2em;
+  margin-right: 1.2rem;
+  margin-top: 0rem;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+}
+
+.app-container-card img {
+  height: 4.5rem;
+  width: 4.5rem;
+}
+
+.menu-search-bar {
+  padding-top:1.1rem;
+  width: 100%;
+  height: 4rem;
+  /* border: 2px solid rgb(94, 255, 0); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-text {
+  font-family: 'Ubuntu';
+  color: white;
+  font-weight: 300;
+  font-size: 0.99rem;
+}
+
+ .inputContainer input{
+   background-color: transparent;
+} 
+
+.inputContainer {
+  height: 90%;
+  height: 2.2rem;
+  width: 20rem;
+  background-color: white;
+}
+.searchIcon {
+  line-height: normal;
+  font-variant-ligatures: none;
+  font-variant-position: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-alternates: normal;
+  font-feature-settings: normal;
+  text-indent: 0;
+  text-align: start;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-color: #000;
+  text-transform: none;
+  /* shape-padding:0; */
+  isolation: auto;
+  mix-blend-mode: normal;
+  marker: none;
+}
+
+
+.menuWindowContainer{
+  /* border: 2px solid red; */
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+justify-content: center;
+gap: 2rem;
+}
+
+.menu-winCon-1{
+  height: 8rem;
+  width: 13.5rem;
+  /* border: 2px solid blue; */
+ background-image: url(../../../public/images/warty-final-ubuntu.png);
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ display: flex;
+ flex-direction: row;
+ flex-wrap:wrap;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+.menu-winCon-2{
+  height: 7.4rem;
+  width: 13.3rem;
+  /* border: 2px solid yellow; */
+   background-image: url(../../../public/images/warty-final-ubuntu.png);
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ display: flex;
+ flex-direction: row;
+ flex-wrap:wrap;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
